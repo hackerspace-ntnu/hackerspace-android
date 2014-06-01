@@ -82,9 +82,7 @@ public class MainActivity extends ActionBarActivity {
             Log.i(TAG, "No valid Google Play Services APK found.");
         }
 
-        textView.setText(regid);
-
-        //refresh();
+        refresh();
     }
 
     public void refresh(){
