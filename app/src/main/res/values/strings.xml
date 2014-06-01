@@ -4,7 +4,7 @@
     <string name="app_name">HackerspaceAndroid</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="door_open">Døra er open</string>
+    <string name="door_open">Døra er åpen</string>
     <string name="door_default">Henter status</string>
 
 </resources>
