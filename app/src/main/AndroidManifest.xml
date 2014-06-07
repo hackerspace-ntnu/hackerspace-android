@@ -28,14 +28,14 @@
         </activity>
 
         <receiver
-            android:name=".GcmBroadcastReceiver"
+            android:name=".gcm.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <category android:name="no.ntnu.idi.hackerspace.gcm" />
             </intent-filter>
         </receiver>
-        <service android:name=".GcmIntentService" />
+        <service android:name=".gcm.GcmIntentService" />
 
 
     </application>

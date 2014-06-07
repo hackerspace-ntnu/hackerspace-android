@@ -1,4 +1,4 @@
-package no.ntnu.idi.hackerspace.app;
+package no.ntnu.idi.hackerspace.app.gcm;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -7,13 +7,13 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.json.JSONObject;
+import no.ntnu.idi.hackerspace.app.MainActivity;
+import no.ntnu.idi.hackerspace.app.R;
 
 /**
  * Created by lionleaf on 31.05.14.
